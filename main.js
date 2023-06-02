@@ -81,13 +81,8 @@
 
 // Get the crypto from the form and display info on page
 {
-    let button = document.getElementById("Clear");
-    button.addEventListener('click', (e) => {
-        e.target.crypto.value = ''
-    });
     // Grab the form
     let form = document.getElementById('formCrypto');
-    
     // Create a function to handle submit event
     async function handleSubmit(e){
         e.preventDefault();
